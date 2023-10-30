@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(71deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 100%);
+  background-size: 100%;
+   
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem{
+  height: 72px;
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-menu-item{
+  font-family: 'Pacifico', cursive;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.conteudo{
+  border-top: 0.4px solid #FFA274 ;
+  margin-bottom: 75px;
+
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.conteudo-principal-escrito-titulo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #FFA274;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #FFA274;
+}
+
+.conteudo-principal-escrito-botão{
+  background-color: #FFA274;
+  width: 185px;
+  height: 60px;
+  color: #ff0000;
+  border: none;
+  box-shadow: 4px 5px 5px #52301E;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.conteudo-principal-escrito-botão:hover{
+  background-color: #52301E;
+  color: #FFA274;
+  transition: 0.8s;
+}
+
+.conteudo-principal-imagem{
+  height: 300px;
+}
+
+.conteúdo-secundário{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  margin-top: 50px;
+}
+
+.conteúdo-secundário-titulo{
+  border-top: 0.5px solid #FFA274;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #FFA274;
+  font-family: 400;
+  margin-bottom: 15px;
+}
+
+.conteúdo-secundário-paragrafo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #FFA274;
+  font-family: 400;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.rodape{
+  padding: 20px;
+  border-top: 2px solid #FFA274;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+  
+.rodape-imagem{
+  height: 70px;
+  
+}
+
+.rodape-texto{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  color: #FFA274;
+  font-family: 400;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
